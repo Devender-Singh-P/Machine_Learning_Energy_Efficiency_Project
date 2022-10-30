@@ -1,0 +1,24 @@
+columns:
+  relative_compactness: float
+  surface_area: float
+  wall_area: float
+  roof_area: float
+  overall_height: float
+  orientation: int
+  glazing_area: float
+  glazing_area_distribution: int
+  heating_load: float
+  cooling_load: float
+
+numerical_columns:
+  - relative_compactness
+  - surface_area
+  - wall_area
+  - roof_area
+  - overall_height
+  - orientation
+  - glazing_area
+  - glazing_area_distribution
+  - cooling_load
+
+target_column: heating_load
