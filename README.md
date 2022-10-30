@@ -1,5 +1,5 @@
 ### POC
-This project is a POC for similar project done during the Internship period at iNeuron Pvt. Ltd.
+This project is a POC for similar project done during the Internship period at iNeuron Intelligence Pvt. Ltd.
 The original project was done for a MNC client where various tech stacks were used from ETL pipelines for data accessing to development of the project through rigourous hardwork of a team having expertise in Big Data, Data Science, Development, DevOps alongwith other fields and this is just a portion of the same due to resource constraints at individual level.
 
 Modular coding approach has been impleted and the app is deployed on Heroku.
@@ -11,4 +11,3 @@ The effect of eight input variables (relative compactness, surface area, wall ar
 
 ### Source:
 Dataset URL alongwith other details :- https://archive.ics.uci.edu/ml/datasets/energy+efficiency
-
