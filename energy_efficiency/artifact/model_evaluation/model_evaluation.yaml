@@ -1,2 +1,5 @@
 best_model:
-  model_path: /media/devender/Samsung_980/Machine_Learning_Energy_Efficiency_Project/energy_efficiency/artifact/model_trainer/2022-11-01-18-32-53/trained_model/model.pkl
+  model_path: /media/devender/Samsung_980/Machine_Learning_Energy_Efficiency_Project/energy_efficiency/artifact/model_trainer/2022-11-01-18-57-04/trained_model/model.pkl
+history:
+  2022-11-01-18-57-04:
+    model_path: /media/devender/Samsung_980/Machine_Learning_Energy_Efficiency_Project/energy_efficiency/artifact/model_trainer/2022-11-01-18-32-53/trained_model/model.pkl
