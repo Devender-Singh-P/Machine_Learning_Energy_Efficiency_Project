@@ -17,9 +17,9 @@ class energy_efficiencyData:
            wall_area: float,
            roof_area: float,
            overall_height: float,
-           orientation: int,
+           orientation: float,
            glazing_area: float,
-           glazing_area_distribution: int,
+           glazing_area_distribution: float,
            cooling_load: float,
            heating_load: float = None
             ):
@@ -56,7 +56,7 @@ class energy_efficiencyData:
                 "orientation": [self.orientation],
                 "glazing_area": [self.glazing_area],
                 "glazing_area_distribution": [self.glazing_area_distribution],
-                "cooling_load": [self.roofcooling_load_area]
+                "cooling_load": [self.cooling_load]
                 }
             return input_data
         except Exception as e:

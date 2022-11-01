@@ -131,14 +131,24 @@ def get_sample_model_config_yaml_file(export_dir: str):
             },
             MODEL_SELECTION_KEY: {
                 "module_0": {
-                    MODULE_KEY: "module_of_model",
-                    CLASS_KEY: "ModelClassName",
+                    MODULE_KEY: "sklearn.linear_model",
+                    CLASS_KEY: "LinearRegression",
                     PARAM_KEY:
-                        {"param_name1": "value1",
-                         "param_name2": "value2",
-                         },
+                        {"fit_intercept": "true",
+                                                 },
                     SEARCH_PARAM_GRID_KEY: {
-                        "param_name": ['param_value_1', 'param_value_2']
+                        "fit_intercept": ['true', 'false']
+                    }
+
+                },
+                "module_1": {
+                    MODULE_KEY: "sklearn.ensemble",
+                    CLASS_KEY: "RandomForestRegressor",
+                    PARAM_KEY:
+                        {"min_samples_leaf": 3
+                                                 },
+                    SEARCH_PARAM_GRID_KEY: {
+                        "min_samples_leaf": [6,10]
                     }
 
                 },

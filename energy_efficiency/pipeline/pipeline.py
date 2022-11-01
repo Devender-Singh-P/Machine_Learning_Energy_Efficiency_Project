@@ -196,11 +196,11 @@ class Pipeline(Thread):
             raise energy_efficiencyException(e, sys) from e
 
     @classmethod
-    def get_experiments_status(cls, limit: int = 5) -> pd.DataFrame:
+    def get_experiments_status(cls, limit: float = 5) -> pd.DataFrame:
         try:
             if os.path.exists(Pipeline.experiment_file_path):
                 df = pd.read_csv(Pipeline.experiment_file_path)
-                limit = -1 * int(limit)
+                limit = -1 * float(limit)
                 return df[limit:].drop(columns=["experiment_file_path", "initialization_timestamp"], axis=1)
             else:
                 return pd.DataFrame()

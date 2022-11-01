@@ -4,9 +4,9 @@ columns:
   wall_area: float
   roof_area: float
   overall_height: float
-  orientation: int
+  orientation: float
   glazing_area: float
-  glazing_area_distribution: int
+  glazing_area_distribution: float
   heating_load: float
   cooling_load: float
 

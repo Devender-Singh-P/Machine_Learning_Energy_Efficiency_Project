@@ -114,9 +114,9 @@ def predict():
         wall_area = float(request.form['wall_area'])
         roof_area = float(request.form['roof_area'])
         overall_height = float(request.form['overall_height'])
-        orientation = int(request.form['orientation'])
+        orientation = float(request.form['orientation'])
         glazing_area = float(request.form['glazing_area'])
-        glazing_area_distribution = int(request.form['glazing_area_distribution'])
+        glazing_area_distribution = float(request.form['glazing_area_distribution'])
         cooling_load = float(request.form['cooling_load'])
 
         energy_efficiency_data = energy_efficiencyData(relative_compactness=relative_compactness,
