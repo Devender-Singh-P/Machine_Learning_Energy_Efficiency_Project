@@ -3,7 +3,7 @@ training_pipeline_config:
   artifact_dir: artifact
 
 data_ingestion_config:
-  dataset_download_url: https://raw.githubusercontent.com/Devender-Singh-P/Energy_Efficiency_Project/main/energy_efficiency.csv
+  dataset_download_url: https://raw.githubusercontent.com/Devender-Singh-P/Machine_Learning_Energy_Efficiency_Project/main/Dataset/energy_efficiency.csv
   raw_data_dir: raw_data
   tgz_download_dir: tgz_data
   ingested_dir: ingested_data
