@@ -11,3 +11,10 @@ The effect of eight input variables (relative compactness, surface area, wall ar
 
 ### Source:
 Dataset URL alongwith other details :- https://archive.ics.uci.edu/ml/datasets/energy+efficiency
+
+### Steps to run this project:
+1. Clone the repository or Download as Zip
+2. Create the virtual environment         ( conda create -p <venv> Python=3.7 -y )
+3. Activate the virtual environment       ( conda activate <venv>)
+4. Install the requirements.txt file      ( pip install -r requirements.txt )
+5. Run the app.py file                    ( python app.py )

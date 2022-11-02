@@ -5,7 +5,7 @@ from typing import List
 PROJECT_NAME="energy_efficiency-predictor"
 VERSION="0.0.2"
 AUTHOR="Devender Singh"
-DESRCIPTION="This is a first FSDS Nov batch Machine Learning Project"
+DESRCIPTION="This is the Internship project"
 
 REQUIREMENT_FILE_NAME="requirements.txt"
 
